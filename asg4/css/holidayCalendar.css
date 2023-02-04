@@ -1,0 +1,79 @@
+/* page styles */
+body {
+    margin: 4rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* end of page styles */
+
+/* container styles */
+footer {
+    text-align: center;
+    color:darkgreen;
+    margin: 5%;
+}
+/* end of container styles */
+
+/* navbar styles */
+.nav-links {
+    list-style-type: none;
+    padding: 20px;
+    background-color:darkgreen;
+}
+
+.nav-links li a {
+    text-transform:lowercase;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links li a:hover {
+    text-decoration:underline;
+}
+/* end of navbar styles */
+
+/* header styles */
+h1, h4 {
+    text-transform:lowercase;
+    text-align: center;
+}
+
+h4 {
+    font-weight: lighter;
+    font-style:italic;
+}
+/* end of header styles */
+
+/* button styles */
+button {
+    width: 4rem;
+    height: 2rem;
+    display: block;
+    margin: 1rem 0;
+    border: none;
+    background-color:darkgreen;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+/* end of button styles */
+
+/* image styles */
+img {
+    width: 30%;
+    display: block;
+    margin: 1rem 0;
+}
+/* end of image styles */
+
+/* link styles */
+a {
+    color:darkgreen;
+}
+
+a:hover {
+    color:limegreen;
+}
+/* end of link styles */

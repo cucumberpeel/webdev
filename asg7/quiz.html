@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <head>
+        <title>Quiz | Asg 7 | Amory Gao</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Return to Assignment 7</a></li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <h1>Quiz Application</h1>
+        </div>
+
+        <div class="main">
+            <div class="form-container">
+                <form action="php/quiz.php" method="post">
+                    <div class="form-row">
+                        Which of the following is NOT an objective measurement that a sound has?
+                        <div class="options-col">
+                            <input name="q1" type="radio" value="Amplitude" /> Amplitude
+                            <input name="q1" type="radio" value="Loudness" /> Loudness
+                            <input name="q1" type="radio" value="Frequency" /> Frequency
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        To provide even reverberation, the shape of the walls of a room should be
+                        <div class="options-col">
+                            <input name="q2" type="radio" value="Regular" /> Regular
+                            <input name="q2" type="radio" value="Nonexistent" /> Nonexistent
+                            <input name="q2" type="radio" value="Complex" /> Complex
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        Sound travels fastest through
+                        <div class="options-col">
+                            <input name="q3" type="radio" value="Solids" /> Solids
+                            <input name="q3" type="radio" value="Liquids" /> Liquids
+                            <input name="q3" type="radio" value="Gases" /> Gases
+                            <input name="q3" type="radio" value="None" /> None of the above
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        A microphone changes kinetic into electrical energy. Therefore, it is a
+                        <div class="options-col">
+                            <input name="q4" type="radio" value="Conductor" /> Semiconductor
+                            <input name="q4" type="radio" value="Transducer" /> Transducer
+                            <input name="q4" type="radio" value="Insulator" /> Insulator
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Submit" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <p>&copy; 2022 by Amory Gao.</p>
+    </footer>
+</html>

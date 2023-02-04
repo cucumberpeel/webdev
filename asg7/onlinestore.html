@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <head>
+        <title>Online Store | Asg 7 | Amory Gao</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Return to Assignment 7</a></li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <h1>Online Store Application</h1>
+        </div>
+
+        <div class="main">
+            <div class="form-container">
+                <form action="php/online.php" method="post">
+                    <div class="form-row">
+                        Name <input type="text" name="Name" />
+                    </div>
+                    <div class="form-row">
+                        Email <input type="email" name="Email" />
+                    </div>
+                    <div class="form-row">
+                        Select a flavor
+                        <select name="Flavor">
+                            <option value="Vanilla">Vanilla ($5)</option>
+                            <option value="Chocolate">Chocolate ($6)</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        Quantity <input type="number" name="Quantity" min="1" />
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Submit" />
+                    </div>
+                    <input type="reset" value="Reset" />
+                </form>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <p>&copy; 2022 by Amory Gao.</p>
+    </footer>
+</html>

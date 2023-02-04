@@ -1,0 +1,29 @@
+/* page styles */
+body {
+    margin: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* end of page styles */
+
+/* link styles */
+button {
+    width: 100px;
+    height:40px;
+    border: none;
+    font-size: 15px;
+    color: white;
+    background-color: maroon;
+}
+
+button:hover {
+    background-color: crimson;
+}
+
+a {
+    color:maroon;
+}
+
+a:hover {
+    color:crimson;
+}
+/* end of link styles */

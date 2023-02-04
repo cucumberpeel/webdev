@@ -1,0 +1,84 @@
+/* container styles */
+body {
+    background-image: url("../images/landscape-3.jpg");
+    background-position: center bottom;
+	background-attachment: fixed;
+	background-size: cover;
+    margin: 2rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.main {
+    width: 70%;
+    margin: auto;
+}
+/* end of container styles */
+
+/* header styles */
+.header {
+    text-align: center;
+    margin: 80px 0 40px;
+}
+
+h1 {
+    font-size: 4rem;
+}
+/* end of header styles */
+
+/* navbar styles */
+.navbar {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.links, .selected {
+    margin: 0.5em;
+}
+/* end of navbar styles */
+
+/* paragraph styles */
+p, h2 {
+    background-color:bisque;
+    padding: 1rem;
+}
+/* end of paragraph styles */
+
+/* end of media styles */
+img {
+    width: 30%;
+    height: auto;
+}
+
+#headshot {
+    display:block;
+    margin:auto;
+    padding: 2rem 0 0;
+}
+
+iframe {
+    display:block;
+    margin:auto;
+    padding: 2rem 0;
+}
+/* end of media styles */
+
+/* link styles */
+a:link, a:visited {
+    text-decoration: none;
+    color:black;
+}
+
+a:focus, a:hover {
+    color: black;
+}
+
+a:active {
+    color:slategrey;
+}
+/* end of link styles */
+
+/* footer styles */
+footer {
+    text-align: center;
+}
+/* end of footer styles */

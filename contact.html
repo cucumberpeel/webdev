@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <head>
+        <title>Contact Me | Amory Gao</title>
+    </head>
+    <body>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Assignment 1</a></li>
+                <li><a href="asg2/index.html">Assignment 2</a></li>
+                <li><a href="asg3/index.html">Assignment 3</a></li>
+                <li><a href="asg4/index.html">Assignment 4</a></li>
+                <li><a href="asg5/index.html">Assignment 5</a></li>
+                <li><a href="asg6/index.html">Assignment 6</a></li>
+                <li><a href="asg7/index.html">Assignment 7</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+            </ul>
+        </div>
+        <div class="header">
+            <h1>Contact Me</h1>
+            <p>Submit the form below and I'll be in touch shortly!</p>
+        </div>
+        <div class="form-container">
+            <form>
+                <div class="form-row">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Name" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Email" />
+                </div>
+                <div class="form-row">
+                    <label for="ref">Where did you find me?</label>
+                    <div class="options-col">
+                        <input type="checkbox" name="ref1" id="ref1" value="Class"/>
+                        <label for="ref1">Class</label>
+                        <input type="checkbox" name="ref2" id="ref2" value="Portfolio"/>
+                        <label for="ref2">Portfolio</label>
+                        <input type="checkbox" name="ref3" id="ref3" value="Other"/>
+                        <label for="ref3">Other</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="cereal-milk">Milk first or cereal first?</label>
+                    <div class="options-col">
+                        <input type="radio" name="cereal-milk" id="cereal" value="Cereal" />
+                        <label for="cereal">Cereal</label>
+                        <input type="radio" name="cereal-milk" id="milk" value="Milk" />
+                        <label for="milk">Milk</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="water-wet">Is water wet?</label>
+                    <div class="options-col">
+                        <input type="radio" name="water-wet" id="no" value="No" />
+                        <label for="no">No</label>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <label for="comments">Additional comments</label>
+                    <textarea rows="5" placeholder="Leave a message" ></textarea>
+                </div>
+                <div class="form-row">
+                    <input type="submit" value="Submit"/>
+                </div>
+            </form>
+        </div> 
+    </body>
+    <footer>
+        <p>&copy; 2022 by Amory Gao.</p>
+    </footer>
+</html>

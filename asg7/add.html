@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
+    <head>
+        <title>Calculator Application | Asg 7 | Amory Gao</title>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <ul class="nav-links">
+                <li><a href="index.html">Return to Assignment 7</a></li>
+            </ul>
+        </div>
+
+        <div class="header">
+            <h1>Calculator Application</h1>
+        </div>
+
+        <div class="main">
+            <div class="form-container">
+                <form action="php/add.php" method="get">
+                    <div class="form-row">
+                        Enter first number <input type="number" name="num1" />
+                    </div>
+                    <div class="form-row">
+                        Enter second number <input type="number" name="num2" />
+                    </div>
+                    <div class="form-row">
+                        Choose an operator
+                        <div class="options-col">
+                            <input name="operator" type="radio" value="+" /> +
+                            <input name="operator" type="radio" value="-" /> -
+                            <input name="operator" type="radio" value="*" /> *
+                            <input name="operator" type="radio" value="/" /> /
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <input type="submit" value="Calculate" />
+                    </div>
+                    <input type="reset" value="Reset" />
+                </form>
+            </div>
+        </div>
+    </body>
+
+    <footer>
+        <p>&copy; 2022 by Amory Gao.</p>
+    </footer>
+</html>
